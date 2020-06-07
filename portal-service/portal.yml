@@ -6,10 +6,10 @@ spring:
     username: sis_root
     password: SisTester123$
     driver-class-name: com.mysql.jdbc.Driver
-security:
-  oauth2:
-    resource:
-      token-info-uri: http://localhost:8185/oauth/check_token
-    client:
-      client-id: mobile
-      client-secret: pin
+  security:
+    oauth2:
+      resource:
+        token-info-uri: http://localhost:8185/oauth/check_token
+      client:
+        client-id: mobile
+        client-secret: pin
