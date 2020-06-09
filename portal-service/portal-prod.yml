@@ -1,4 +1,4 @@
-property-level: 'portal dev level'
+property-level: 'portal prod level'
 security:
   oauth2:
     resource:
