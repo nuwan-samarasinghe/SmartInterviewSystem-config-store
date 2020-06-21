@@ -1,4 +1,12 @@
 property-level: 'portal dev level'
+management:
+  endpoints:
+    web:
+      cors:
+        allowed-origins: *
+        allowed-methods: *
+        allowed-headers: *
+        allow-credentials: true
 security:
   oauth2:
     resource:

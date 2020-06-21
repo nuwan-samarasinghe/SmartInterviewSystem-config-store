@@ -1,4 +1,12 @@
 property-level: 'auth dev level'
+management:
+  endpoints:
+    web:
+      cors:
+        allowed-origins: *
+        allowed-methods: *
+        allowed-headers: *
+        allow-credentials: true
 spring:
   datasource:
     url: jdbc:mysql://sis-db.ceggfqkkv7i5.us-east-1.rds.amazonaws.com:3306/auth?createDatabaseIfNotExist=true
