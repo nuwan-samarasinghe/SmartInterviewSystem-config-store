@@ -13,8 +13,3 @@ spring:
     username: sis_root
     password: SisTester123$
     driver-class-name: com.mysql.cj.jdbc.Driver
-management:
-  endpoints:
-    web:
-      cors:
-        allowed-origins: *
