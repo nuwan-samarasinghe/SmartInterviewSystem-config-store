@@ -5,3 +5,8 @@ spring:
     username: sis_root
     password: SisTester123$
     driver-class-name: com.mysql.cj.jdbc.Driver
+management:
+  endpoints:
+    web:
+      cors:
+        allowed-origins: http://ec2-3-235-104-89.compute-1.amazonaws.com:8182
