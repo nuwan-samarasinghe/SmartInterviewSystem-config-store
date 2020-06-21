@@ -9,4 +9,4 @@ management:
   endpoints:
     web:
       cors:
-        allowed-origins: http://ec2-3-235-104-89.compute-1.amazonaws.com:8182
+        allowed-origins: *

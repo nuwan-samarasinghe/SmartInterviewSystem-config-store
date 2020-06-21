@@ -9,4 +9,4 @@ management:
   endpoints:
     web:
       cors:
-        allowed-origins: http://localhost:8182
+        allowed-origins: *
